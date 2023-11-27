@@ -1,0 +1,17 @@
+.transactionHistory {
+    background-color: rgb(234, 253, 253);
+    margin: 80px auto;
+    padding: 4px;
+    width: 450px;
+    border-radius: 18px;
+    box-shadow: 11px 10px 5px -2px rgba(168,151,151,0.75);
+    text-align: center;
+}
+
+.title {
+    background-color: rgb(83, 166, 166);
+}
+
+.row:nth-child(2n) {
+    background-color: white;
+}

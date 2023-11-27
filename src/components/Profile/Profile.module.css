@@ -27,16 +27,19 @@
 .name {
     font-size: 24px;
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .tag {
     font-size: 18px;
     color: rgb(98, 97, 97);
+    margin-bottom: 10px;
 }
 
 .location {
     font-size: 18px;
     color: rgb(98, 97, 97);
+    margin-bottom: 10px;
 }
 
 .stats {

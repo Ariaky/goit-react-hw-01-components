@@ -1,4 +1,5 @@
 import css from './Statistics.module.css';
+import {getRandomColor} from './GetRandomColor';
 
 export const Statistics =({ title, stats }) => {
     return (
@@ -7,7 +8,7 @@ export const Statistics =({ title, stats }) => {
       
         <ul className={css.statList}>{stats.map(item => {
             return (
-                <li key={item.id} className={css.item} >
+                <li key={item.id} className={css.item} style={{backgroundColor: getRandomColor(), flex: 1, }}>
                     <span className={css.label}>{item.label}</span>
                     <span className={css.percentage}>{item.percentage}%</span>
                 </li>
